@@ -1,1 +1,44 @@
 /* TODO Add site wide styles */
+@font-face {
+    font-family: 'DMSans-Bold';
+    src: url(./fonts/DMSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'DMSans-Regular';
+    src: url(./fonts/DMSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'DMSans-Medium';
+    src: url(./fonts/DMSans-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'DMSans-Italic';
+    src: url(./fonts/DMSans-Italic.ttf);
+}
+
+#root {
+    background-image: url(./assets/Shifting\ Gems\ 11\ -\ 4K.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+* {
+    font-family: 'DMSans-Regular';
+    color: whitesmoke;
+}
+
+button {
+    cursor: pointer;
+}
+
+input {
+    color: black;
+}
